@@ -24,7 +24,7 @@ def play_game():    #default function
     print(f"您已經猜了{count}次\n")
     
 while(True):
-    play_game()
+    play_game()     #呼叫function
     play_again = input("再玩一次(y,n):")
     if(play_again == 'n'):
         break
