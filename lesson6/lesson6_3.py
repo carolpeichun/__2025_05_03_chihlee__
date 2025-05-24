@@ -1,10 +1,10 @@
 import random
 
-def play_game():    #default function
+def play_game():    #default function  #define
     min = 1
     max = 99
     count = 0
-    random_number = random.randint(min,max) #加random_number改敘述式, 因後面程式都還要再用到值
+    random_number = random.randint(min,max) #運算式random.randint(min,max)前面加=即變敘述式, 當運算式的值還要再用到時, 可改成敘述式將值丟進random_number
     print(random_number)  #先知道答案
     print("=====猜數字遊戲開始========\n")
     while(True): #while後不用空格的bool
