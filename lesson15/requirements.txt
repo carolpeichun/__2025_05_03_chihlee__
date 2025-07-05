@@ -1,5 +1,8 @@
-plotly
-streamlit
-numpy
 pandas
+numpy
+matplotlib
+seaborn
+openpyxl
+scipy
+streamlit
 yfinance
